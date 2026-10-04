@@ -1,0 +1,12 @@
+*/build/
+*.elf
+*.bin
+*.map
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+*.ioc
+*.cproject
+*.uvprojx
+platformio.ini
