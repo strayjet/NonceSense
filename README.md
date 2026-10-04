@@ -26,7 +26,6 @@ The demo button should connect PB12 to GND when pressed. The internal pull-up ke
 ```text
 wec_recs/
 ├── README.md
-├── host_requirements.txt
 ├── .gitignore
 ├── Task0/
 │   ├── main.c
