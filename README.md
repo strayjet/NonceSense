@@ -24,7 +24,7 @@ The demo button should connect PB12 to GND when pressed. The internal pull-up ke
 ## 2. Repository layout
 
 ```text
-wec_recs/
+NonceSense/
 ├── README.md
 ├── .gitignore
 ├── Task0/
