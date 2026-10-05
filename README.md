@@ -288,22 +288,3 @@ A malformed command, invalid hexadecimal input, RX overflow, or complete command
 
 After the lockout, the violation counter resets.
 
-## 10. Host tests
-
-Install:
-
-```text
-python -m pip install -r host_requirements.txt
-```
-
-Then run, for example:
-
-```text
-python Task1/host_test.py COM5
-python Task2/host_test.py COM5
-python Task3/host_test.py COM5
-```
-
-The scripts use the same public assignment key and protocol as the firmware.
-
-Task 2 and Task 3 require a physical button press. Task 3 also checks constant-time cycle measurements and exercises the three one-second violations followed by the fourth-violation lockout.
